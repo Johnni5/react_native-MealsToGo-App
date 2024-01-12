@@ -1,0 +1,39 @@
+<header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Hello {this.state.name.firstName}!
+            You work at {this.state.company}.
+          </p>
+          <button 
+            onClick={() => {
+              this.setState(() => {
+                return {
+                  name: { firstName: 'Andrei', lastName: 'Neagoie'},
+                };
+              });
+            }}
+          >
+            Change Name
+          </button>
+        </header>
+
+
+----------------------------------------------
+
+          name: 'Linda',
+          id: '12e1231e',
+        },
+        {
+          name: 'Frank',
+          id: '12ed2dacas',
+        },
+        {
+          name: 'Bobbie',
+          id: '1231e',
+        },
+        {
+          name: 'Andrei',
+          id: '12e1e213',
+        }
+------------------------------------------------
+
